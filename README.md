@@ -76,7 +76,7 @@ bin/magento config:set catalog/search/elasticsearch7_server_port '9200'
 	
 bin/restart
 
-# Your site is ready at https://local.marketplace2.jajuma.de/
+# Your site is ready at https://local.convert/
 ```
 
 ## Debug
