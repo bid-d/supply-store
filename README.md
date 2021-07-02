@@ -31,6 +31,9 @@ This configuration is used for setting up a full magento 2 local development.
 # Create an empty directory
 mkdir project-name && cd project-name
 
+# Create composer directory
+sudo rm -rf ~/.composer && mkdir ~/.composer
+
 # Download the Docker Compose template:
 curl -s https://raw.githubusercontent.com/bid-d/docker-magento/master/lib/template | bash
 
