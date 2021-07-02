@@ -14,8 +14,9 @@ This configuration is used for setting up a full magento 2 local development.
 -  Operating systems (Linux x86-64): such as RedHat Enterprise Linux (RHEL), CentOS, Ubuntu, Debian, and similar
 -  Memory requirement: At least 2GB Ram
 -  Hard Drive: SSD is preferred over HDD
--  [Docker and Docker-compose installed (For Ubuntu)](https://docs.docker.com/engine/install/ubuntu/)
+-  [Docker installation (For Ubuntu)](https://docs.docker.com/engine/install/ubuntu/)
 -  [Post-Installation for Docker (Avoid running Docker as Root)](https://docs.docker.com/engine/install/linux-postinstall/)
+-  [Docker Compose installation](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
 -  Composer pre-installed is not required
 -  Turn off any services running on port 80, 3306, and 9200 (or 9300)
 
