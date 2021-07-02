@@ -16,6 +16,7 @@ This configuration is used for setting up a full magento 2 local development.
 -  Hard Drive: SSD is preferred over HDD
 -  [Docker and Docker-compose installed (For Ubuntu)](https://docs.docker.com/engine/install/ubuntu/)
 -  Composer pre-installed is not required
+-  Turn off any services running on port 80, 3306, and 9200 (or 9300)
 
 ## Version Tested
 - PHP: 7.4
@@ -25,6 +26,9 @@ This configuration is used for setting up a full magento 2 local development.
 - In your project directory, run following commands to install:
 
 ```bash
+# Create an empty directory
+mkdir project-name && cd project-name
+
 # Download the Docker Compose template:
 curl -s https://raw.githubusercontent.com/bid-d/docker-magento/master/lib/template | bash
 
