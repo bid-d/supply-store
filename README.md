@@ -31,8 +31,11 @@ This configuration is used for setting up a full magento 2 local development.
 # Create an empty directory
 mkdir project-name && cd project-name
 
-# Create composer directory
+# Create composer directory if not existed
 sudo rm -rf ~/.composer && mkdir ~/.composer
+
+# download and copy the auth.json file to composer directory
+Download auth.json and copy to ~/.composer directory
 
 # Download the Docker Compose template:
 curl -s https://raw.githubusercontent.com/bid-d/docker-magento/master/lib/template | bash
