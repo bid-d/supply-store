@@ -91,6 +91,12 @@ bin/restart
 # Your site is ready at https://local.convert/
 ```
 
+## Frontend Development
+```bash
+# The grunt is already install globally, but you still need to run this command to install grunt locally
+bin/npm install grunt --save-dev
+```
+
 ## Debug
 This setup already included Xdebug installation.
 In order to use Xdebug, you need to install Xdebug extension through VSCode Extensions then enable it by running: `bin/xdebug enable`
