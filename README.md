@@ -32,7 +32,7 @@ This configuration is used for setting up a full magento 2 local development.
 mkdir project-name && cd project-name
 
 # Change .composer permission
-sudo chown -R $USER:$USER ~/.composer
+mkdir ~/.composer && sudo chown -R $USER:$USER ~/.composer
 
 # download and copy the auth.json file to composer directory
 Download auth.json and copy to ~/.composer directory
